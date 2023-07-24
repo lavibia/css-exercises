@@ -12,6 +12,28 @@ img {
   font-weight: 900;
 }
 
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap:32px;
+}
+
+.infoSection{
+  display: flex;
+  flex-direction: row;
+  gap:52px;
+  justify-content: space-between;
+  text-align: center;
+
+}
+.infoSection >*{
+  max-width:200px;
+}
+
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
